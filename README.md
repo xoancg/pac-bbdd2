@@ -1,58 +1,40 @@
-# PAC BBDD2 Project
+# Título del Proyecto
 
-## Description of BBDD2 PAC Project
-This project encompasses various aspects of database management for administrative and educational purposes, focusing on the handling of student and faculty records along with audit functionalities.
+## Descripción
+Esta es una traducción al español de la documentación del proyecto Pac-Bbdd2.
 
-## Tables
-1. **alumnos**: Contains records of students including their personal and academic details.
-2. **profesores**: Stores information about professors, courses taught, and their respective departments.
-3. **emp**: Holds employee records for administrative staff, including job roles and contact information.
-4. **dept**: Departmental information related to management and their hierarchies.
-5. **auditaemple**: Audit logs for employee actions and changes in department records.
+## Tabla de Contenidos
+- [Usuarios](#usuarios)
+- [Permisos](#permisos)
+- [Ejercicios](#ejercicios)
+- [Instrucciones de Instalación](#instrucciones-de-instalacion)
+- [Ejemplos de Uso](#ejemplos-de-uso)
+- [Conceptos Clave](#conceptos-clave)
 
-## Users and Permissions
-- **pacuser**: Basic access to view and manage users.
-- **Miguel**: Full access to all data, with editing capabilities across all tables.
-- **Marta**: Restricted access, can only view tables without making changes.
+## Usuarios
+Descripción de los usuarios y sus roles en el sistema.
 
-## Exercise 1: User Management
-This exercise involves creating, updating, and deleting users within the system while ensuring proper permission handling.
+## Permisos
+Descripción de los permisos asignados a cada tipo de usuario.
 
-## Exercise 2: Procedures and Functions
-The following procedures and functions have been implemented:
-1. `anoactual`: Retrieves the current year.
-2. `sumaruno`: Adds one to a given number.
-3. `concatenar`: Concatenates two strings.
-4. `sumarenteros`: Sums two integers.
-5. `diasemana`: Returns the day of the week for a given date.
-6. `diasemanacase`: A CASE statement variant for days of the week.
-7. `mayordetres`: Finds the largest of three numbers.
-8. `numeroprimo`: Checks if a number is prime.
-9. `sumarprimos`: Sums all prime numbers up to a given limit.
-10. `comisionistas`: Calculates commission for sales agents based on sales data.
+## Ejercicios
+### Ejercicio 1: Procedimiento
+Descripción detallada del primer ejercicio y sus procedimientos.
 
-## Exercise 3: Cursor Variations
-Explore the following cursor variations for data retrieval:
-1. `nombrelocalidad`: Iterates through locations.
-2. `empleadosventas`: Fetches employees related to sales.
-3. `apellidosfor`: Loops through last names of students.
-4. `apellidosfetch`: Fetches last names using cursors.
+### Ejercicio 2: Funciones
+Descripción de las funciones del segundo ejercicio.
 
-## Exercise 4: Audit Triggers
-To maintain data integrity, these triggers have been implemented:
-1. `auditasueldo`: Audits changes to employee salary.
-2. `auditaemple`: Monitors changes to employee records.
-3. `auditaemple2`: Additional audit for specific employee actions.
+### Ejercicio 3: Cursores
+Explicación de cómo usar cursores en el tercer ejercicio.
 
-## Installation Instructions
-1. Clone the repository.
-2. Ensure you have the necessary database and configuration setup.
-3. Run the initialization scripts.
+### Ejercicio 4: Triggers
+Descripción de los triggers involucrados en el cuarto ejercicio.
 
-## Usage Examples
-- To create a new user: `CREATE USER 'new_user'...`
-- Fetching data from alumnos: `SELECT * FROM alumnos;`
+## Instrucciones de Instalación
+Pasos detallados sobre cómo instalar el software.
 
-## Key Concepts
-- Understanding of tables, relationships, and user permissions.
-- Awareness of procedures, functions, and triggers in managing database behavior.
+## Ejemplos de Uso
+Ejemplos prácticos de cómo utilizar el software.
+
+## Conceptos Clave
+Definiciones y explicaciones de los conceptos clave utilizados en el proyecto.
