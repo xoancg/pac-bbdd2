@@ -1,33 +1,50 @@
-# pac-bbdd2
+# Titulo del Proyecto
 
-## Descripción
-Este proyecto es una implementación de base de datos que permite la gestión eficiente de datos. Está diseñado para ser escalable y fácil de usar.
+Este es un proyecto para la gestión de bases de datos.
 
-## Instalación
-Para instalar este proyecto, asegúrese de tener [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) instalados. Luego, puede clonar el repositorio:
+## Usuarios
+- pacuser
+- Miguel
+- Marta
 
-```bash
-git clone https://github.com/xoancg/pac-bbdd2.git
-cd pac-bbdd2
-npm install
-```
+## Tablas
+- alumnos
+- profesores
+- emp
+- dept
+- auditaemple
 
-## Uso
-Para ejecutar la aplicación, use el siguiente comando:
+## Procedimientos y Funciones (Ejercicio 2)
+1. anoactual
+2. sumaruno
+3. concatenar
+4. sumarenteros
+5. diasemana
+6. diasemanacase
+7. mayordetres
+8. numeroprimo
+9. sumarprimos
+10. comisionistas
 
-```bash
-npm start
-```
+## Cursors (Ejercicio 3)
+1. [Nombre del cursor 1]
+2. [Nombre del cursor 2]
+3. [Nombre del cursor 3]
+4. [Nombre del cursor 4]
 
-Asegúrese de actualizar las configuraciones necesarias en el archivo `config.json` según sus requerimientos.
+## Triggers (Ejercicio 4)
+1. [Nombre del trigger 1]
+2. [Nombre del trigger 2]
+3. [Nombre del trigger 3]
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si desea contribuir, por favor siga estos pasos:
-1. Haga un fork del repositorio.
-2. Cree una nueva rama para su característica (`git checkout -b feature/nueva-característica`).
-3. Realice sus cambios y confirme (`git commit -m 'Agregué una nueva característica'`).
-4. Envíe la rama (`git push origin feature/nueva-característica`).
-5. Abra un Pull Request.
+## Instrucciones de Instalación
+Siga estos pasos para instalar el proyecto:
+1. Clonar el repositorio.
+2. Ejecutar los scripts de instalación.
+3. Configurar los parámetros necesarios.
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
+## Ejemplos Prácticos
+Aquí hay algunos ejemplos de cómo utilizar las funciones y procedimientos:
+- Ejemplo 1: [Descripción del ejemplo]
+- Ejemplo 2: [Descripción del ejemplo]
+- Ejemplo 3: [Descripción del ejemplo]
